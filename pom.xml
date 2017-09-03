@@ -32,6 +32,12 @@
             <artifactId>easypoi-annotation</artifactId>
             <version>${easypoi.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -74,6 +80,7 @@
     </build>
 
     <properties>
+        <swagger2.version>2.7.0</swagger2.version>
         <easypoi.version>2.4.0</easypoi.version>
         <spring.cloud.version>Camden.SR7</spring.cloud.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
